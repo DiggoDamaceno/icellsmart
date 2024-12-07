@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(68, 68, 68);
+}
+.DEL{
+    min-width: 100vh;
+}
+.topo > .DEL{
+    background-image: linear-gradient(to right,#00003F 41%,#266398 100%);
+    min-width: 100vh;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.menu{
+    background-color: #1B1A1A;
+    height: 90px;
+    padding: 10px;
+}
+.menu menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    color: azure;
+    font-size: 46px;
+    font-family: "Jaldi", sans-serif;
+}
+.destaque{
+    width: 100%;
+    height: 900px;
+    background-image:url("IMAGENS/PRODUTOS.png"),url("IMAGENS/FUNDO.png");
+    background-repeat: no-repeat,no-repeat;
+    background-size: 600px,100%;
+    background-position:bottom left,top ;
+}
+#inicio{
+    text-decoration: underline solid 2px white;
+}
+#pesq{
+    padding-top: 50px;
+}
+h2{
+    font-family: "Jaldi", sans-serif;
+    font-size: 56px;
+    display: flex;
+    justify-content: flex-end;
+    color: #ffffff;
+    padding: 30px;
+}
+hr{
+    background-color: #404040;
+    height: 8px;
+}
+.PRODUTOS{
+    background-color: #01294D;
+    min-width:100vh;
+    height:800px;
+}
+h3{
+    font-size: 46px;
+    font-family: "Jaldi", sans-serif;
+    text-decoration: underline solid black 3px;
+    color: #ffffff;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+.produtos_items{
+    display: flex;
+    justify-content: space-around;
+}
+.produtos_items img{
+    height: 315px;
+    width: 300px;
+}
+.HISTORIA{
+    background-image: radial-gradient( circle, #ffffff 70%, #747474 );
+    height: 950px;
+}
+.histora_conteudo img{
+    padding-right: 60px;
+}
+
+#histo{
+    color: #253D72;
+}
+.historia_conteudo p{
+    color: #265B91;
+}
+.historia_conteudo p, .loca2 p{
+    font-family: "Jaldi", sans-serif;
+    font-size: 28px;
+    text-align: left;
+    padding: 20px;
+    text-indent: 20px;
+}
+.LOCALIZAÇÃO{
+    height: 900px;
+    background-image: radial-gradient( circle, #265B91 70%, #01294D );
+}
+#loca1{
+    color: #ffffff;
+}
+.RODAPE{
+    background-image: linear-gradient(to right,#00003F 41%,#266398 100%);
+    height: 570px;
+}
+.loc{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    align-items: center;
+    font-size: 28px;
+}
+.loca2{
+    display: flex;
+    justify-content:space-around;
+    color: #ffffff;
+    align-items: center;
+}
+.imagens{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botao a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 26px;
+    font-family: "Jaldi", sans-serif;
+    text-align: center;
+    width: 190px;
+    height: 100px;
+    background-color: #253D72;
+    border-radius:100%;
+    margin-left: 1400px;
+    padding: 10px;
+    
+}
+#copi{
+    font-size:30px;
+    color: #ffffff;
+    padding: 40px;
+    font-family: "Jaldi", sans-serif;
+}
+.marcas{
+    width: 90%;
+    display: flex;
+    justify-content:flex-end;
+    gap: 180px;
+}
